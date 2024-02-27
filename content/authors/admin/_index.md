@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Yuge Tu
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yuge
+last_name: Tu
 
 # Status emoji
 status:
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Student of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
