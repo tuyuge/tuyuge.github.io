@@ -1,4 +1,26 @@
-<h1 id="perplexity">Perplexity</h1>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evaluation</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#perplexity">Perplexity</a></li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="perplexity">Perplexity</h1>
 <p>Perplexity 是评估语言模型性能的常用指标，它反映了模型对测试数据的困惑程度。其计算公式如下：</p>
 <p><span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mtext>Perplexity</mtext><mo stretchy="false">(</mo><mi>P</mi><mo stretchy="false">)</mo><mo>=</mo><mi>exp</mi><mo>⁡</mo><mrow><mo fence="true">(</mo><mo>−</mo><mfrac><mn>1</mn><mi>N</mi></mfrac><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>N</mi></munderover><mi>log</mi><mo>⁡</mo><mi>P</mi><mo stretchy="false">(</mo><msub><mi>x</mi><mi>i</mi></msub><mo stretchy="false">)</mo><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">
 \text{Perplexity}(P) = \exp\left(-\frac{1}{N} \sum_{i=1}^N \log P(x_i)\right)
@@ -21,3 +43,8 @@
 <p>通过 perplexity，我们可以直观地比较不同模型在相同测试数据上的表现，perplexity 越低，模型的预测能力越强。</p>
 <p>在 Figure 2 中，使用 perplexity 来评估模型在长上下文处理任务中的表现，可以直接反映出 TTT 层相比其他模型在处理长上下文序列时的优越性。</p>
 
+    </div>
+  </div>
+</body>
+
+</html>
